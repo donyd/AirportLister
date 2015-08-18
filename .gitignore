@@ -1,9 +1,1 @@
-*.suo
-.ntvs_analysis.dat
-.ntvs_analysis.dat.tmp
-
-# Build results
-[Oo]bj/
-*.dll
-
 node_modules
