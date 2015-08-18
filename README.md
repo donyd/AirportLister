@@ -1,4 +1,4 @@
-﻿Vanilla Ajax without jQuery
+Code for the SitePoint article [﻿Vanilla Ajax without jQuery](http://www.sitepoint.com/guide-vanilla-ajax-without-jquery)
 
 You can run it with:
 
