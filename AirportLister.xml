@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<products xmlns:xsi=http://www.w3.org/2001/XMLSchemainstance
+xsi:noNamespaceSchemaLocation='AirportListerXMLSchema.xsd'>
+<vendor webvendor="full">
+
 <AirportCodes> <!--Single root element-->
   <Airport>
     <Code>MVD</Code>
