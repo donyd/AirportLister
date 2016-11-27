@@ -1,4 +1,4 @@
-﻿var http = require('http'),
+var http = require('http'),
   fs = require('fs');
 
 function render(path, contentType, fn) {
@@ -22,6 +22,10 @@ var app = http.createServer(function (req, res) {
   } else if (req.headers['x-requested-with'] === 'XMLHttpRequest' && req.headers['x-vanillaajaxwithoutjquery-version'] === '1.0') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ message: 'Hello World!' }));
+  } else if(req.url.indexOf('/airportlister.html') >= 0){
+ /* might not be needed as httpHandler call back does it
+    res.writeHead(200, {'Content-Type': 'text/html'});*/
+    render(req.url.slice(1), 'text/html', httpHandler);
   } else {
     render('views/index.html', 'text/html', httpHandler);
   }
