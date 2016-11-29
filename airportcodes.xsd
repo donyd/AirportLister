@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.airportlister.com"
+            xmlns="http://www.airportlister.com"
+            elementFormDefault="qualified"
+            > 
+  <xsd:element name="airportcodes">
+    <complexType>
+      <xsd:element name="Airport">
+        <complexType>
+          <xsd:sequence>
+            <xsd:element name="Code" type="xsd:string">
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                  <xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="AirportName" type="xsd:string" />
+            <xsd:element name="City" type="xsd:string" />
+            <xsd:element name="Country" type="xsd:string" />
+            <xsd:element name="Continent" type="xsd:string" />
+            <xsd:element name="AirlineHub" type="xsd:string" />
+          </xsd:sequence>
+        </complexType>
+      </xsd:element>
+    </complexType>
+  </xsd:element> 
+</xsd:schema>
+ 
+<!-- previous sample kept for referencing 
+    <complexType>
+      <sequence>
+        <element ref="vendor" minOccurs='1'
+        maxOccurs='unbounded'/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="vendor">
+    <complexType>
+      <sequence>
+        <element ref="vendor_name" minOccurs='1'
+        maxOccurs='1'/>
+        <element ref="product" minOccurs='0'
+        maxOccurs='unbounded'/>
+      </sequence>
+      <attribute name="webvendor" type="string"/>
+    </complexType>
+  </element>
+  <element name="vendor_name" type='string'/>
+  <element name="product" type='string'/>
+<element name="products">
+</xsd:schema>
+ -->

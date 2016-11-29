@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<products xmlns:xsi=http://www.w3.org/2001/XMLSchemainstance
-xsi:noNamespaceSchemaLocation='AirportListerXMLSchema.xsd'>
-<vendor webvendor="full">
 
-<AirportCodes> <!--Single root element-->
+<airportcodes xmlns="http://www.airportlister.com"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.airportlister.com airportcodes.xsd"
+               >  <!--Single root element-->
   <Airport>
     <Code>MVD</Code>
     <AirportName>Carrasco International Airport</AirportName>
@@ -100,4 +100,4 @@ xsi:noNamespaceSchemaLocation='AirportListerXMLSchema.xsd'>
     <Continent>Asia</Continent>
     <AirlineHub>Thai Airways</AirlineHub>
   </Airport>
-</AirportCodes>
+</airportcodes>
