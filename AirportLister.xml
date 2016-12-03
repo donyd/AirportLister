@@ -100,4 +100,156 @@
     <Continent>Asia</Continent>
     <AirlineHub>Thai Airways</AirlineHub>
   </Airport>
+  <Airport>
+    <Code>ATT</Code>
+    <AirportName>Atmautluak Airport</AirportName>
+    <City>Atmautluak</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>zzz</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>zzz</Code>
+    <AirportName>zzz</AirportName>
+    <City>zzz</City>
+    <Country>zzz</Country>
+    <Continent>zzz</Continent>
+    <AirlineHub>zzz</AirlineHub>
+  </Airport>
+    <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+      <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
 </AirportCodes>
