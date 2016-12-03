@@ -3,7 +3,7 @@
 <xsl:template match="/">  <!--this attribute associates the template with the root of the XML source document-->
     <h2>Airport Information</h2>
     <table border="2">
-      <tr bgcolor="#9acd32">
+      <tr bgcolor="ffdd33">
         <th>Airport Code</th>
         <th>Name</th>
         <th>City</th>

@@ -6,49 +6,54 @@
             > 
   <xsd:element name="airportcodes">
     <complexType>
-      <xsd:element name="Airport">
+      <xsd:element name="Airport" maxOccurs="unbounded">
         <complexType>
           <xsd:sequence>
-            <xsd:element name="Code" type="xsd:string">
+            <xsd:element name="Code">
               <xsd:simpleType>
                 <xsd:restriction base="xsd:string">
-                  <xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+                  <xsd:pattern value="[A-Z][A-Z][A-Z]"/> <!--Code can only be 3 UPPERCASE letters-->
                 </xsd:restriction>
               </xsd:simpleType>
-            </xsd:element>
-            <xsd:element name="AirportName" type="xsd:string" />
-            <xsd:element name="City" type="xsd:string" />
-            <xsd:element name="Country" type="xsd:string" />
-            <xsd:element name="Continent" type="xsd:string" />
-            <xsd:element name="AirlineHub" type="xsd:string" />
+            </xsd:element>            
+            <xs:element name="AirportName">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[a-zA-Z]"/>  <!-- Makes sure only lower and UPPER case letters can be entered, and no other symbol-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="City">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[a-zA-Z]"/> <!-- Makes sure only lower and UPPER case letters can be entered, and no other symbol-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>            
+            <xs:element name="Country">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[a-zA-Z]"/> <!-- Makes sure only lower and UPPER case letters can be entered, and no other symbol-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>            
+            <xs:element name="Continent">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="South America|North America|Central America|Europe|Africa|Asia|Oceania|Antarctica"/>  <!--Continent can only be one of these values-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>            
+            <xs:element name="AirlineHub">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[a-zA-Z]"/> <!-- Makes sure only lower and UPPER case letters can be entered, and no other symbol-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element> 
           </xsd:sequence>
         </complexType>
       </xsd:element>
     </complexType>
   </xsd:element> 
 </xsd:schema>
- 
-<!-- previous sample kept for referencing 
-    <complexType>
-      <sequence>
-        <element ref="vendor" minOccurs='1'
-        maxOccurs='unbounded'/>
-      </sequence>
-    </complexType>
-  </element>
-  <element name="vendor">
-    <complexType>
-      <sequence>
-        <element ref="vendor_name" minOccurs='1'
-        maxOccurs='1'/>
-        <element ref="product" minOccurs='0'
-        maxOccurs='unbounded'/>
-      </sequence>
-      <attribute name="webvendor" type="string"/>
-    </complexType>
-  </element>
-  <element name="vendor_name" type='string'/>
-  <element name="product" type='string'/>
-<element name="products">
-</xsd:schema>
- -->
