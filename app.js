@@ -73,37 +73,37 @@ router.get('/get/html', function(req, res) {
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 
-//   // Function to read in a JSON file, add to it & convert to XML
-//   function appendJSON(obj) {
+// Function to read in a JSON file, add to it & convert to XML
+   function appendJSON(obj) {
 
-//     // Read in a JSON file
-//     var JSONfile = fs.readFileSync('Countries.json', 'utf8');
+// Read in a JSON file
+    var JSONfile = fs.readFileSync('Countries.json', 'utf8');
 
-//     // Parse the JSON file in order to be able to edit it 
-//     var JSONparsed = JSON.parse(JSONfile);
+// Parse the JSON file in order to be able to edit it 
+    var JSONparsed = JSON.parse(JSONfile);
 
-//     // Add a new record into country array within the JSON file    
-//     JSONparsed.country.push(obj);
+// Add a new record into country array within the JSON file    
+    JSONparsed.country.push(obj);
 
-//     // Beautify the resulting JSON file
-//     var JSONformated = JSON.stringify(JSONparsed, null, 4);
+// Beautify the resulting JSON file
+    var JSONformated = JSON.stringify(JSONparsed, null, 4);
 
-//     // Write the updated JSON file back to the system 
-//     fs.writeFileSync('Countries.json', JSONformated);
+// Write the updated JSON file back to the system 
+    fs.writeFileSync('Countries.json', JSONformated);
 
-//     // Convert the updated JSON file to XML     
-//     var XMLformated = js2xmlparser.parse("countries", JSON.parse(JSONformated));
+// Convert the updated JSON file to XML     
+    var XMLformated = js2xmlparser.parse("countries", JSON.parse(JSONformated));
 
-//     // Write the resulting XML back to the system
-//     fs.writeFileSync('Countries.xml', XMLformated);
+// Write the resulting XML back to the system
+    fs.writeFileSync('Countries.xml', XMLformated);
 
-//   }
+   }
 
-//   // Call appendJSON function and pass in body of the current POST request
-//   appendJSON(req.body);
+// Call appendJSON function and pass in body of the current POST request
+   appendJSON(req.body);
   
-//   // Re-direct the browser back to the page, where the POST request came from
-//   res.redirect('back');
+// Re-direct the browser back to the page, where the POST request came from
+   res.redirect('back');
 
 });
 

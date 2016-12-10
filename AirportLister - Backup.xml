@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="AirportLister.xsl"?>
+<AirportCodes>
+<!--               xmlns="http://www.airportlister.com"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.airportlister.com airportcodes.xsd"> -->
+  <Airport>
+    <Code>MVD</Code>
+    <AirportName>Carrasco International Airport</AirportName>
+    <City>Montevideo</City>
+    <Country>Uruguay</Country>
+    <Continent>South America</Continent>
+    <AirlineHub>Pluna</AirlineHub>
+  </Airport>
+ <Airport>
+    <Code>JFK</Code>
+    <AirportName>John F. Kennedy International Airport</AirportName>
+    <City>New York</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>American Airlines</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>EWR</Code>
+    <AirportName>Newark Liberty International Airport</AirportName>
+    <City>New York</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>United Airlines</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>LHR</Code>
+    <AirportName>Heathrow Airport</AirportName>
+    <City>London</City>
+    <Country>England</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>British Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>DUB</Code>
+    <AirportName>Dublin Airport</AirportName>
+    <City>Dublin</City>
+    <Country>Ireland</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Aer Lingus</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>JNB</Code>
+    <AirportName>O. R. Tambo International Airport</AirportName>
+    <City>Johannesburg</City>
+    <Country>South Africa</Country>
+    <Continent>Africa</Continent>
+    <AirlineHub>South African Airways</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>DXB</Code>
+    <AirportName>Dubai International Airport</AirportName>
+    <City>Dubai</City>
+    <Country>United Arab Emirates</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Emirates</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>EZE</Code>
+    <AirportName>Ministro Pistarini International Airport</AirportName>
+    <City>Buenos Aires</City>
+    <Country>Argentina</Country>
+    <Continent>South America</Continent>
+    <AirlineHub>Aerolineas Argentinas</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>GIG</Code>
+    <AirportName>Rio de Janeiro–Galeão International Airport</AirportName>
+    <City>Rio de Janeiro</City>
+    <Country>Brazil</Country>
+    <Continent>South America</Continent>
+    <AirlineHub>TAM</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>GRU</Code>
+    <AirportName>São Paulo–Guarulhos International Airport</AirportName>
+    <City>Sao Paulo</City>
+    <Country>Brazil</Country>
+    <Continent>South America</Continent>
+    <AirlineHub>GOL Airlines</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BOM</Code>
+    <AirportName>Chhatrapati Shivaji International Airport</AirportName>
+    <City>Mumbai</City>
+    <Country>India</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Air India</AirlineHub>
+  </Airport>
+  <Airport>
+    <Code>BKK</Code>
+    <AirportName>Suvarnabhumi Airport</AirportName>
+    <City>Bangkok</City>
+    <Country>Thailand</Country>
+    <Continent>Asia</Continent>
+    <AirlineHub>Thai Airways</AirlineHub>
+  </Airport>
+</AirportCodes>
