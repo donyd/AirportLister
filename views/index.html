@@ -57,25 +57,37 @@
           <li>
             <form enctype='application/json' action="/post/json" method="post">
               <div class="field">
-                <input type="text" name="Airport_code" placeholder="Airport Code">
+                <input type="text" name="Code" placeholder="Airport Code">
               </div>
               <div class="field">
-                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="AirportName" placeholder="Name">
               </div>
               <div class="field">
-                <input type="text" name="city" placeholder="City">
+                <input type="text" name="City" placeholder="City">
               </div>
               <div class="field">
-                <input type="text" name="country" placeholder="Country">
+                <input type="text" name="Country" placeholder="Country">
               </div>
               <div class="field">
-                <input type="text" name="continent" placeholder="Continent">
+                <input type="text" name="Continent" placeholder="Continent">
               </div>
                <div class="field">
-                <input type="text" name="airline_hub" placeholder="Airline Hub">
+                <input type="text" name="AirlineHub" placeholder="Airline Hub">
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
+                
+              </div>
+            </form>
+          </li>
+          <li>
+          <form enctype='application/json' action="/delete/json" method="post">
+              <div class="field">
+                <input type="text" name="Code" placeholder="Airport Code">
+              </div>
+              <div class="field">
+                <button type="delete">Delete</button>
+                
               </div>
             </form>
           </li>
