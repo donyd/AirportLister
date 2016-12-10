@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="AirportLister.xsl"?>
-<!--
-xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://www.airportlister.com airportcodes.xsd"> -->
 <AirportCodes>
 	<Airport>
 		<Code>MVD</Code>
@@ -14,7 +11,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>JFK</Code>
-		<AirportName>John F. Kennedy International Airport</AirportName>
+		<AirportName>John F Kennedy International Airport</AirportName>
 		<City>New York</City>
 		<Country>USA</Country>
 		<Continent>North America</Continent>
@@ -46,7 +43,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>JNB</Code>
-		<AirportName>O. R. Tambo International Airport</AirportName>
+		<AirportName>O R Tambo International Airport</AirportName>
 		<City>Johannesburg</City>
 		<Country>South Africa</Country>
 		<Continent>Africa</Continent>
@@ -70,7 +67,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>GIG</Code>
-		<AirportName>Rio de Janeiro–Galeão International Airport</AirportName>
+		<AirportName>Rio de Janeiro Galeao International Airport</AirportName>
 		<City>Rio de Janeiro</City>
 		<Country>Brazil</Country>
 		<Continent>South America</Continent>
@@ -78,7 +75,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>GRU</Code>
-		<AirportName>São Paulo–Guarulhos International Airport</AirportName>
+		<AirportName>Sao Paulo Guarulhos International Airport</AirportName>
 		<City>Sao Paulo</City>
 		<Country>Brazil</Country>
 		<Continent>South America</Continent>
@@ -142,10 +139,10 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>BRX</Code>
-		<AirportName>María Montez International Airport</AirportName>
+		<AirportName>Maria Montez International Airport</AirportName>
 		<City>Barahona</City>
 		<Country>Dominican Republic</Country>
-		<Continent>Americas</Continent>
+		<Continent>Central America</Continent>
 		<AirlineHub>Aerolíneas Mas</AirlineHub>
 	</Airport>
 	<Airport>
@@ -153,7 +150,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 		<AirportName>Maurice Bishop International Airport</AirportName>
 		<City>Grenada</City>
 		<Country>Grenada</Country>
-		<Continent>Americas</Continent>
+		<Continent>Central America</Continent>
 		<AirlineHub>American Airlines</AirlineHub>
 	</Airport>
 	<Airport>
@@ -166,7 +163,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>ACA</Code>
-		<AirportName>General Juan N. Alvarez International Airport</AirportName>
+		<AirportName>General Juan N Alvarez International Airport</AirportName>
 		<City>Acapulco</City>
 		<Country>Mexico</Country>
 		<Continent>North America</Continent>
@@ -190,7 +187,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>GRU</Code>
-		<AirportName>São Paulo-Guarulhos International Airport</AirportName>
+		<AirportName>Sao Paulo Guarulhos International Airport</AirportName>
 		<City>São Paulo</City>
 		<Country>Brazil</Country>
 		<Continent>South America</Continent>
@@ -230,7 +227,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>LYS</Code>
-		<AirportName>Lyon–Saint-Exupéry Airport</AirportName>
+		<AirportName>Lyon Saint Exupery Airport</AirportName>
 		<City>Lyon</City>
 		<Country>France</Country>
 		<Continent>Europe</Continent>
@@ -262,7 +259,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>MAD</Code>
-		<AirportName>Adolfo Suárez Madrid–Barajas Airport</AirportName>
+		<AirportName>Adolfo Suarez Madrid–Barajas Airport</AirportName>
 		<City>Madrid</City>
 		<Country>Spain</Country>
 		<Continent>Europe</Continent>
@@ -294,7 +291,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>MXP</Code>
-		<AirportName>Milan–Malpensa Airport</AirportName>
+		<AirportName>Milan Malpensa Airport</AirportName>
 		<City>Milan</City>
 		<Country>Italy</Country>
 		<Continent>Europe</Continent>
@@ -302,7 +299,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>ZRH</Code>
-		<AirportName>Zürich Airport</AirportName>
+		<AirportName>Zurich Airport</AirportName>
 		<City>Zurich</City>
 		<Country>Switzerland</Country>
 		<Continent>Europe</Continent>
@@ -366,7 +363,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>KEF</Code>
-		<AirportName>Keflavík International Airport</AirportName>
+		<AirportName>Keflavik International Airport</AirportName>
 		<City>Reykjavík</City>
 		<Country>Iceland</Country>
 		<Continent>Europe</Continent>
@@ -382,7 +379,7 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 	</Airport>
 	<Airport>
 		<Code>IST</Code>
-		<AirportName>Istanbul Atatürk Airport</AirportName>
+		<AirportName>Istanbul Ataturk Airport</AirportName>
 		<City>Istanbul</City>
 		<Country>Turkey</Country>
 		<Continent>Europe</Continent>
@@ -411,13 +408,5 @@ xmlns="http://www.airportlister.com"xmlns:xsi="http://www.w3.org/2001/XMLSchema-
 		<Country>Sweden</Country>
 		<Continent>Europe</Continent>
 		<AirlineHub>Amapola Flyg</AirlineHub>
-	</Airport>
-	<Airport>
-		<Code>MAN</Code>
-		<AirportName>Manchester Airport</AirportName>
-		<City>Manchester</City>
-		<Country>England</Country>
-		<Continent>Europe</Continent>
-		<AirlineHub>Flybe</AirlineHub>
 	</Airport>
 </AirportCodes>
