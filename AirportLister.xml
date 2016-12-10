@@ -25,7 +25,7 @@
     <AirportName>Newark Liberty International Airport</AirportName>
     <City>New York</City>
     <Country>USA</Country>
-    <Continent>Norht America</Continent>
+    <Continent>North America</Continent>
     <AirlineHub>United Airlines</AirlineHub>
   </Airport>
   <Airport>
@@ -106,150 +106,150 @@
     <City>Atmautluak</City>
     <Country>USA</Country>
     <Continent>North America</Continent>
-    <AirlineHub>zzz</AirlineHub>
+    <AirlineHub>Ravn Alaska</AirlineHub>
   </Airport>
   <Airport>
-    <Code>zzz</Code>
-    <AirportName>zzz</AirportName>
-    <City>zzz</City>
-    <Country>zzz</Country>
-    <Continent>zzz</Continent>
-    <AirlineHub>zzz</AirlineHub>
+    <Code>GOM</Code>
+    <AirportName>Goma International Airport</AirportName>
+    <City>GOMA</City>
+    <Country>Democratic Republic of the Congo</Country>
+    <Continent>Africa</Continent>
+    <AirlineHub>Congo Airways</AirlineHub>
   </Airport>
     <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>MRU</Code>
+    <AirportName>Sir Seewoosagur Ramgoolam International Airport</AirportName>
+    <City>Plaine Magnien</City>
+    <Country>Mauritius</Country>
+    <Continent>Africa</Continent>
+    <AirlineHub>Air Mauritius</AirlineHub>
   </Airport>
       <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>HBE</Code>
+    <AirportName>Borg El Arab Airport</AirportName>
+    <City>Alexandria</City>
+    <Country>Egypt</Country>
+    <Continent>Africa</Continent>
+    <AirlineHub>Aegean Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>DLA</Code>
+    <AirportName>Douala International Airport</AirportName>
+    <City>Douala</City>
+    <Country>Cameroon</Country>
+    <Continent>Africa</Continent>
+    <AirlineHub>Africa's Connection STP</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>BRX</Code>
+    <AirportName>María Montez International Airport</AirportName>
+    <City>Barahona</City>
+    <Country>Dominican Republic</Country>
+    <Continent>Americas</Continent>
+    <AirlineHub>Aerolíneas Mas</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>GND</Code>
+    <AirportName>Maurice Bishop International Airport</AirportName>
+    <City>Grenada</City>
+    <Country>Grenada</Country>
+    <Continent>Americas</Continent>
+    <AirlineHub>American Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>YVR</Code>
+    <AirportName>Vancouver International Airport</AirportName>
+    <City>Vancouver</City>
+    <Country>Canada</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>Air Canada</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>ACA</Code>
+    <AirportName>General Juan N. Alvarez International Airport</AirportName>
+    <City>Acapulco</City>
+    <Country>Mexico</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>United Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>MDW</Code>
+    <AirportName>Chicago Midway International Airport</AirportName>
+    <City>Chicago</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>Southwest Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>IAH</Code>
+    <AirportName>George Bush International Airport</AirportName>
+    <City>Houston</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>United Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>GRU</Code>
+    <AirportName>São Paulo-Guarulhos International Airport</AirportName>
+    <City>São Paulo</City>
+    <Country>Brazil</Country>
+    <Continent>South America</Continent>
+    <AirlineHub>Buenos Aires–Aeroparque</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>LAX</Code>
+    <AirportName>Los Angeles International Airport</AirportName>
+    <City>Los Angeles</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>American Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>YWG</Code>
+    <AirportName>Winnipeg James Armstrong Richardson International Airport</AirportName>
+    <City>Winnipeg</City>
+    <Country>Canada</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>Air Canada Express</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>MEM</Code>
+    <AirportName>Memphis International Airport</AirportName>
+    <City>Memphis</City>
+    <Country>USA</Country>
+    <Continent>North America</Continent>
+    <AirlineHub>Southwest Airlines</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
+    <Code>EIN</Code>
+    <AirportName>Eindhoven Airport</AirportName>
     <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Country>Netherlands</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Transavia</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>LYS</Code>
+    <AirportName>Lyon–Saint-Exupéry Airport</AirportName>
+    <City>Lyon</City>
+    <Country>France</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Air France</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
-    <Country>Thailand</Country>
-    <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <Code>SNN</Code>
+    <AirportName>Shannon Airport</AirportName>
+    <City>Shannon</City>
+    <Country>Ireland</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Aer Lingus</AirlineHub>
   </Airport>
   <Airport>
-    <Code>BKK</Code>
-    <AirportName>Suvarnabhumi Airport</AirportName>
-    <City>Bangkok</City>
+    <Code>NJF</Code>
+    <AirportName>Al Najaf International Airport</AirportName>
+    <City>Najaf</City>
     <Country>Thailand</Country>
     <Continent>Asia</Continent>
-    <AirlineHub>Thai Airways</AirlineHub>
+    <AirlineHub>Air Arabia</AirlineHub>
   </Airport>
 </AirportCodes>
