@@ -2,7 +2,7 @@
 <html lang="en" ng-app>
 
 <head>
-  <title>World Countries and Capitals</title>
+  <title>Airport Lister</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
@@ -18,6 +18,10 @@
       border-collapse: collapse;
       border: 1px solid black;
       text-align: center;
+      }
+    th {
+      background-color: ;
+      
     }
   </style>
   <script src="/js/jquery.min.js"></script>
@@ -46,29 +50,29 @@
       </div>
     </div>
     <div class="page-header">
-      <h1>World Countries and Capitals</h1>
+      <h1><center>Airport Lister</center></h1>
     </div>
-    <div class="row">
-      <div id="results" class="span8">
-      </div>
-      <div class="span4">
-        <ul class="nav nav-list well">
+    <div class="span3">
+        <ul class="nav nav-list well" background-color=ffdd33>
           <li>
             <form enctype='application/json' action="/post/json" method="post">
               <div class="field">
-                <input type="text" name="Country_code" placeholder="Country code">
+                <input type="text" name="Airport_code" placeholder="Airport Code">
               </div>
               <div class="field">
-                <input type="text" name="Region" placeholder="Region">
+                <input type="text" name="name" placeholder="Name">
               </div>
               <div class="field">
-                <input type="text" name="Name" placeholder="Name">
+                <input type="text" name="city" placeholder="City">
               </div>
               <div class="field">
-                <input type="text" name="Capital" placeholder="Capital">
+                <input type="text" name="country" placeholder="Country">
               </div>
               <div class="field">
-                <input type="text" name="Phone_code" placeholder="Phone code">
+                <input type="text" name="continent" placeholder="Continent">
+              </div>
+               <div class="field">
+                <input type="text" name="airline_hub" placeholder="Airline Hub">
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
@@ -77,6 +81,10 @@
           </li>
         </ul>
       </div>
+    <div class="row">
+      <div id="results" class="span8">
+      </div>
+      
     </div>
   </div>
 </body>

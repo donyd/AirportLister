@@ -1,7 +1,7 @@
 {
-  "name": "wad-simple-demo",
+  "name": "AirportLister",
   "version": "1.0.0",
-  "description": "demo app to make AJAX requests to load results of XSL transformation and send POST requests to add new information to JSON and XML files",
+  "description": "App that shows airport codes and its respective information",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikhail-nci/wad-simple-demo.git"
+    "url": "git+https://github.com/donyd/AirportLister.git"
   },
-  "author": "Mikhail",
-  "homepage": "https://github.com/mikhail-nci/wad-simple-demo#readme"
+  "author": "Dony-Gemma-Karina",
+  "homepage": "https://github.com/donyd/AirportLister.git"
 }
