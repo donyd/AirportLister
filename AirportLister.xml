@@ -4,7 +4,7 @@
 <!--               xmlns="http://www.airportlister.com"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://www.airportlister.com airportcodes.xsd"> -->
-  <Airport>
+  -<Airport>
     <Code>MVD</Code>
     <AirportName>Carrasco International Airport</AirportName>
     <City>Montevideo</City>
@@ -251,5 +251,181 @@
     <Country>Thailand</Country>
     <Continent>Asia</Continent>
     <AirlineHub>Air Arabia</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>BYJ</Code>
+    <AirportName>Beja Airport</AirportName>
+    <City>Beja</City>
+    <Country>Portugal</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Aigle Azur</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>MAD</Code>
+    <AirportName>Adolfo Suárez Madrid–Barajas Airport</AirportName>
+    <City>Madrid</City>
+    <Country>Spain</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Air Europa</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>VIE</Code>
+    <AirportName>Vienna International Airport</AirportName>
+    <City>Vienna</City>
+    <Country>Austria</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Austrian Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>MUC</Code>
+    <AirportName>Munich Airport</AirportName>
+    <City>Munich</City>
+    <Country>Germany</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Air Dolomiti</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>RHO</Code>
+    <AirportName>Rhodes International Airport</AirportName>
+    <City>Rodos</City>
+    <Country>Greece</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Olympic Air</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>MXP</Code>
+    <AirportName>Milan–Malpensa Airport</AirportName>
+    <City>Milan</City>
+    <Country>Italy</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Cargolux Italia</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Airport>
+    <Code>ZRH</Code>
+    <AirportName>Zürich Airport</AirportName>
+    <City>Zurich</City>
+    <Country>Switzerland</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Belair</AirlineHub>
+  </Airport>
+</AirportCodes>
+    <Airport>
+<Code>BUD</Code>
+    <AirportName>Budapest Ferenc Liszt International Airport</AirportName>
+    <City>Budapest</City>
+    <Country>Hungary</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Wizzair</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>KUN</Code>
+ <AirportName>Kaunas International Airport</AirportName>
+    <City>Budapest</City>
+    <Country>Lithuania</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Finnair</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>MLA</Code>
+ <AirportName>Malta International Airport</AirportName>
+    <City>Valletta</City>
+    <Country>Malta</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Air Malta</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>SVO</Code>
+ <AirportName>Sheremetyevo International Airport</AirportName>
+    <City>Moscow</City>
+    <Country>Russia</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Aeroflot</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>WAW</Code>
+ <AirportName>Warsaw Chopin Airport</AirportName>
+    <City>Warsaw</City>
+    <Country>Poland</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>LOT Polish Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>LCA</Code>
+ <AirportName>Larnaca International Airport</AirportName>
+    <City>Larnaca</City>
+    <Country>Cyprus</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Aegean Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>CPH</Code>
+ <AirportName>Copenhagen Airport</AirportName>
+    <City>Copenhagen</City>
+    <Country>Denmark</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Air Greenland</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>KEF</Code>
+ <AirportName>Keflavík International Airport</AirportName>
+    <City>Reykjavík</City>
+    <Country>Iceland</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Icelandair</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>DME</Code>
+ <AirportName>Domodedovo International Airport</AirportName>
+    <City>Moscow</City>
+    <Country>Russia</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Globus Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>IST</Code>
+ <AirportName>Istanbul Atatürk Airport</AirportName>
+    <City>Istanbul</City>
+    <Country>Turkey</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>AtlasGlobal</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>KBP</Code>
+ <AirportName>Boryspil International Airport</AirportName>
+    <City>Kiev</City>
+    <Country>Ukraine</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Ukraine International Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>OSL</Code>
+ <AirportName>Oslo Airport Gardermoen</AirportName>
+    <City>Oslo</City>
+    <Country>Norway</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Scandinavian Airlines</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>ARN</Code>
+ <AirportName>Stockholm Arlanda Airport</AirportName>
+    <City>Stockholm</City>
+    <Country>Sweden</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Amapola Flyg</AirlineHub>
+  </Airport>
+</AirportCodes>
+<Code>MAN</Code>
+ <AirportName>Manchester Airport</AirportName>
+    <City>Manchester</City>
+    <Country>England</Country>
+    <Continent>Europe</Continent>
+    <AirlineHub>Flybe</AirlineHub>
   </Airport>
 </AirportCodes>
