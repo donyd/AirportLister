@@ -1,4 +1,4 @@
-<!-- CODE THAT IS VALIDATING 
+CODE THAT IS VALIDATING 
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="AirportCodes">
     <xs:complexType>
@@ -11,12 +11,26 @@
           </xs:annotation>
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="Code"/>
-              <xs:element type="xs:string" name="AirportName"/>
-              <xs:element type="xs:string" name="City"/>
-              <xs:element type="xs:string" name="Country"/>
-              <xs:element type="xs:string" name="Continent"/>
-              <xs:element type="xs:string" name="AirlineHub"/>
+              <xs:element name="Code">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[A-Z][A-Z][A-Z]"/> <!--Code can only be 3 UPPERCASE letters-->
+                </xs:restriction>
+              </xs:simpleType>
+              </xs:element>
+             <xs:element name="AirportName" type="xs:string"></xs:element>
+             <xs:element name="City" type="xs:string"></xs:element>
+             <xs:element name="Country" type="xs:string"></xs:element>
+              
+            <xs:element name="Continent">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="South America|North America|Central America|Europe|Africa|Asia|Oceania|Antarctica"/>  <!--Continent can only be one of these values-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>         
+           <xs:element name="AirlineHub" type="xs:string"></xs:element>
+
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -24,11 +38,11 @@
     </xs:complexType>
   </xs:element>
 </xs:schema> 
--->
+
 
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified"> 
-  <xsd:element name="airportcodes">
+  <xsd:element name="AirportCodes">
     <complexType>
       <xsd:element name="Airport" maxOccurs="unbounded">
         <complexType>
