@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <style>
     body {
       padding-top: 60px;
@@ -22,6 +23,7 @@
   </style>
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
   <script>
     function load() {
       $.ajax({
@@ -32,13 +34,34 @@
         }
       });
     };
-
+    
+    // submit code from https://api.jquery.com/submit/
+    function validator(){
+      var cdChk = /[A-Z][A-Z][A-Z]/; 
+      $( "form" ).submit(function( event ) {
+   // regex pattern and usage taken from http://codepen.io/donyd/pen/xELLJP?editors=1010#0
+        if ( cdChk.test($("#JK").val())) { 
+          $( "span" ).text( "Validated..." ).show();
+          return;
+        } else if ($("#JK").val() == ''){
+          return;
+        } else {
+          $( "span" ).text( "Invalid Airport Code" ).show().fadeOut( 1000 );
+          event.preventDefault();
+        }
+      });
+    } 
+    
+    
     $(document).ready(function() {
       load();
+      validator();
     });
   </script>
+   
 </head>
-
+  
+  
 <body>
   <div class="container">
     <div class="navbar navbar-fixed-top navbar-inverse">

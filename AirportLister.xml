@@ -1,14 +1,6 @@
 <?xml version='1.0'?>
 <AirportCodes>
     <Airport>
-        <Code>MVD</Code>
-        <AirportName>Carrasco International Airport</AirportName>
-        <City>Montevideo</City>
-        <Country>Uruguay</Country>
-        <Continent>South America</Continent>
-        <AirlineHub>Pluna</AirlineHub>
-    </Airport>
-    <Airport>
         <Code>JFK</Code>
         <AirportName>John F. Kennedy International Airport</AirportName>
         <City>New York</City>
@@ -255,5 +247,13 @@
         <Country>Japan</Country>
         <Continent>Asia</Continent>
         <AirlineHub>Narita</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>hol</Code>
+        <AirportName>g</AirportName>
+        <City>g</City>
+        <Country>g</Country>
+        <Continent>g</Continent>
+        <AirlineHub>g</AirlineHub>
     </Airport>
 </AirportCodes>
