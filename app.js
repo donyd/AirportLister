@@ -67,11 +67,64 @@ router.post('/post/json', function(req, res) {
    }
 
 // Call appendJSON function and pass in body of the current POST request
-   appendJSON(req.body);
+  //console.log(req.body);
+  appendJSON(req.body);
   
 // Re-direct the browser back to the page, where the POST request came from
    res.redirect('back');
 
+});
+
+// POST request to add to JSON & XML files
+
+
+router.post('/delete/json', function(req, res) {
+  
+  // Function to read in a JSON file, add to it & convert to XML
+  function deleteEntryJSON(obj) {
+
+    // Read in a JSON file
+    var JSONfile = fs.readFileSync('Airports.json', 'utf8');
+
+    // Parse the JSON file in order to be able to edit it 
+    var JSONparsed = JSON.parse(JSONfile);
+    
+  //  JSONparsed.person.splice(JSONparsed.person.length-1, 1);
+    
+  //Removing a record from parsed json file using splice() 
+  // (Geoghegan, 2016) NCI computing student 2nd year part time
+  var index = -1; 
+    for(var i = 0; i != JSONparsed.Airport.length; i++){
+      if(JSONparsed.Airport[i].Code === obj.Code){
+        index = i;
+      }
+   }
+   if(index != -1){
+    JSONparsed.Airport.splice(index, 1);
+   }
+    
+    
+ // Beautify the resulting JSON file
+    var JSONformated = JSON.stringify(JSONparsed, null, 4);
+
+// Write the updated JSON file back to the system 
+    fs.writeFileSync('Airports.json', JSONformated);
+
+// Convert the updated JSON file to XML     
+    var XMLformated = js2xmlparser.parse("AirportCodes", JSON.parse(JSONformated));
+
+// Write the resulting XML back to the system
+    fs.writeFileSync('AirportLister.xml', XMLformated);
+    
+  }
+  
+  // Call appendJSON function and pass in body of the current POST request
+  //console.log(req.body);
+  deleteEntryJSON(req.body);
+  
+// Re-direct the browser back to the page, where the POST request came from
+   res.redirect('back');
+  
 });
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {

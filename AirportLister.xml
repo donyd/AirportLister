@@ -10,7 +10,7 @@
     </Airport>
     <Airport>
         <Code>JFK</Code>
-        <AirportName>John F Kennedy International Airport</AirportName>
+        <AirportName>John F. Kennedy International Airport</AirportName>
         <City>New York</City>
         <Country>USA</Country>
         <Continent>North America</Continent>
@@ -42,7 +42,7 @@
     </Airport>
     <Airport>
         <Code>JNB</Code>
-        <AirportName>O R Tambo International Airport</AirportName>
+        <AirportName>O. R. Tambo International Airport</AirportName>
         <City>Johannesburg</City>
         <Country>South Africa</Country>
         <Continent>Africa</Continent>
@@ -66,7 +66,7 @@
     </Airport>
     <Airport>
         <Code>GIG</Code>
-        <AirportName>Rio de Janeiro Galeao International Airport</AirportName>
+        <AirportName>Rio de Janeiro–Galeão International Airport</AirportName>
         <City>Rio de Janeiro</City>
         <Country>Brazil</Country>
         <Continent>South America</Continent>
@@ -74,7 +74,7 @@
     </Airport>
     <Airport>
         <Code>GRU</Code>
-        <AirportName>Sao Paulo Guarulhos International Airport</AirportName>
+        <AirportName>São Paulo–Guarulhos International Airport</AirportName>
         <City>Sao Paulo</City>
         <Country>Brazil</Country>
         <Continent>South America</Continent>
@@ -97,11 +97,163 @@
         <AirlineHub>Thai Airways</AirlineHub>
     </Airport>
     <Airport>
-        <Code>aaa</Code>
-        <AirportName>bbb</AirportName>
-        <City>ccc</City>
-        <Country>ddd</Country>
-        <Continent>eee</Continent>
-        <AirlineHub>fff</AirlineHub>
+        <Code>ATT</Code>
+        <AirportName>Atmautluak Airport</AirportName>
+        <City>Atmautluak</City>
+        <Country>USA</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>Ravn Alaska</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>GOM</Code>
+        <AirportName>Goma International Airport</AirportName>
+        <City>GOMA</City>
+        <Country>Democratic Republic of the Congo</Country>
+        <Continent>Africa</Continent>
+        <AirlineHub>Congo Airways</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>MRU</Code>
+        <AirportName>Sir Seewoosagur Ramgoolam International Airport</AirportName>
+        <City>Plaine Magnien</City>
+        <Country>Mauritius</Country>
+        <Continent>Africa</Continent>
+        <AirlineHub>Air Mauritius</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>HBE</Code>
+        <AirportName>Borg El Arab Airport</AirportName>
+        <City>Alexandria</City>
+        <Country>Egypt</Country>
+        <Continent>Africa</Continent>
+        <AirlineHub>Aegean Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>DLA</Code>
+        <AirportName>Douala International Airport</AirportName>
+        <City>Douala</City>
+        <Country>Cameroon</Country>
+        <Continent>Africa</Continent>
+        <AirlineHub>Africa's Connection STP</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>BRX</Code>
+        <AirportName>María Montez International Airport</AirportName>
+        <City>Barahona</City>
+        <Country>Dominican Republic</Country>
+        <Continent>Americas</Continent>
+        <AirlineHub>Aerolíneas Mas</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>GND</Code>
+        <AirportName>Maurice Bishop International Airport</AirportName>
+        <City>Grenada</City>
+        <Country>Grenada</Country>
+        <Continent>Americas</Continent>
+        <AirlineHub>American Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>YVR</Code>
+        <AirportName>Vancouver International Airport</AirportName>
+        <City>Vancouver</City>
+        <Country>Canada</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>Air Canada</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>ACA</Code>
+        <AirportName>General Juan N. Alvarez International Airport</AirportName>
+        <City>Acapulco</City>
+        <Country>Mexico</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>United Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>MDW</Code>
+        <AirportName>Chicago Midway International Airport</AirportName>
+        <City>Chicago</City>
+        <Country>USA</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>Southwest Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>IAH</Code>
+        <AirportName>George Bush International Airport</AirportName>
+        <City>Houston</City>
+        <Country>USA</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>United Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>GRU</Code>
+        <AirportName>São Paulo-Guarulhos International Airport</AirportName>
+        <City>São Paulo</City>
+        <Country>Brazil</Country>
+        <Continent>South America</Continent>
+        <AirlineHub>Buenos Aires–Aeroparque</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>LAX</Code>
+        <AirportName>Los Angeles International Airport</AirportName>
+        <City>Los Angeles</City>
+        <Country>USA</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>American Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>YWG</Code>
+        <AirportName>Winnipeg James Armstrong Richardson International Airport</AirportName>
+        <City>Winnipeg</City>
+        <Country>Canada</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>Air Canada Express</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>MEM</Code>
+        <AirportName>Memphis International Airport</AirportName>
+        <City>Memphis</City>
+        <Country>USA</Country>
+        <Continent>North America</Continent>
+        <AirlineHub>Southwest Airlines</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>EIN</Code>
+        <AirportName>Eindhoven Airport</AirportName>
+        <City>Bangkok</City>
+        <Country>Netherlands</Country>
+        <Continent>Europe</Continent>
+        <AirlineHub>Transavia</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>LYS</Code>
+        <AirportName>Lyon–Saint-Exupéry Airport</AirportName>
+        <City>Lyon</City>
+        <Country>France</Country>
+        <Continent>Europe</Continent>
+        <AirlineHub>Air France</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>SNN</Code>
+        <AirportName>Shannon Airport</AirportName>
+        <City>Shannon</City>
+        <Country>Ireland</Country>
+        <Continent>Europe</Continent>
+        <AirlineHub>Aer Lingus</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>NJF</Code>
+        <AirportName>Al Najaf International Airport</AirportName>
+        <City>Najaf</City>
+        <Country>Thailand</Country>
+        <Continent>Asia</Continent>
+        <AirlineHub>Air Arabia</AirlineHub>
+    </Airport>
+    <Airport>
+        <Code>KiX</Code>
+        <AirportName>Kansai International Airport</AirportName>
+        <City>Osaka</City>
+        <Country>Japan</Country>
+        <Continent>Asia</Continent>
+        <AirlineHub>Narita</AirlineHub>
     </Airport>
 </AirportCodes>
